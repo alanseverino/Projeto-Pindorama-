@@ -1,36 +1,22 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<div class="capa">
+  <img src="Pindorama.png" alt="Capa Pindorama" class="imagem-capa">
+</div>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pindorama</title>
 <style>
-  body {
-    margin: 0;
-    background-color: white;
-    font-family: Arial, sans-serif;
-  }
+.capa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* cor de fundo */
+  width: 100%;
+  height: 100vh; /* ocupa a tela inteira */
+  overflow: hidden; /* evita rolagem */
+}
 
-  .capa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* tela cheia */
-    background-color: white;
-  }
+.imagem-capa {
+  max-width: 100%;
+  height: auto; /* mantém proporção */
+}
 
-  .capa img {
-    max-width: 100%;
-    height: auto; /* mantém a proporção */
-  }
 </style>
 </head>
-<body>
-
-<div class="capa">
-  <img src="Pindorama.png" alt="Capa Pindorama">
-</div>
-
-</body>
-</html>
-# Projeto-Pindorama-
